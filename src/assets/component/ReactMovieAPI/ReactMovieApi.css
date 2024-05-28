@@ -1,0 +1,54 @@
+.mainMovieList{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.searchTools{
+height: 50px;
+margin-top: 20px;
+display: flex;
+align-content: center;
+}
+.searchTools>input{
+    background-color: rgb(237, 207, 207);
+    height: 30px;
+    width: 400px;
+    border: none;
+    border-radius: 2px;
+    box-shadow: 3px 5px 7px blue;
+    border-bottom: 2px solid white;
+}
+.searchTools>input:hover{
+    background-color: yellow;
+    color: black;
+
+}
+.searchTools>input:focus{
+    background-color: yellow;
+    color: black;
+    border: none;
+}
+
+.searchTools>button{
+    height: 35px;
+    margin-left: 4px;
+   background-color: blue;
+   color: white;
+}
+
+
+.movieList{ 
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5PX;
+    justify-content: space-evenly;
+
+}
+
+.loading{
+    /* display: none; */
+    background-color: white;
+}

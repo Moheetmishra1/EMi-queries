@@ -1,0 +1,35 @@
+#eyeBox{
+    height: 60vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#eyes{
+    height: 30%;
+    width: 50%;
+    /* border: 1px solid white; */
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.eye{
+    height: 100px;
+    width: 20%;
+    background-color: yellow;
+    border-radius: 20% 0 20% 0;
+    /* border: 2px solid green; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.eye>div{
+    height: 30px;
+    width: 20px;
+    color: rgb(51, 112, 166);
+}

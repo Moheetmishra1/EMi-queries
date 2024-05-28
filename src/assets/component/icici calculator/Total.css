@@ -1,0 +1,37 @@
+.TotalBox{
+    height: 100%;
+    width: 105%;
+   
+    /* background-color: rgb(211, 27, 27); */
+    background-image: url("./images/homeCalculator.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    text-shadow: -1px 2px 2px black,-2px 3px 8px black;
+    font-size: 50px;
+    color: yellow;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    grid-area: 30px;
+    align-items: center;
+    justify-content: center;
+}   
+
+.TotalElement{
+    /* transform: rotateX(12deg); */
+    text-shadow: 4px 2px 4px black;
+
+}
+
+button{
+    background-color: rgba(20, 231, 108, 0.868);
+    border-radius: 4px;
+    margin: 5px;
+    height: 30px;
+}
+button:hover{
+    background-color: green;
+    color: white;
+}

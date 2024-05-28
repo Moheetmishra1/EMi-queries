@@ -1,0 +1,36 @@
+.calculator{  
+    /* calculator */
+    height: 400px;
+    width: 900px;
+    background-color: #6f26eb;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 2%;
+    margin: 40px auto;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid rgba(0, 0, 0, 0.559);
+    padding: 15px 40px;
+}
+.cal{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    /* border: 2px solid b  rown; */
+    border-radius: 20px;
+
+    /* background-color: black; */
+}
+
+.Calculator-theme{
+    height:  95vh;
+    width: 98%;
+    position: absolute;
+
+background-image: url("./images/pngtree-home-loan-calculator-image_13003310.jpg");
+background-size: 100%;
+
+}

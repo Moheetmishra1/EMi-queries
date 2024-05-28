@@ -1,0 +1,33 @@
+
+.temp{
+
+    height: 120px;
+    width: 400px;
+    /* border: 1px solid black; */
+    border-radius: 3%;
+    padding: 1px;
+    margin: 0px;
+    /* background-color: rgba(208, 88, 168, 0.663); */
+    display: flex;
+    flex-direction: column;
+    /* gap: px; */
+    justify-content: space-between;
+}
+
+.loantext{
+    height: 2px;
+    text-align: start;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    /* display: inline; */
+}
+
+
+
+.rangeamount{
+
+    color: rgb(248, 245, 245);
+    display: flex;
+    justify-content:space-between;
+}

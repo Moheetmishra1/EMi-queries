@@ -1,0 +1,38 @@
+p,div{
+    margin: 1px;
+}
+
+.box{
+    height: 700px;
+    width: 300px;
+    margin: 5px;
+    padding: 4px;
+    font-weight: 600;
+    background-color: rgb(228, 215, 215);
+    box-shadow: 2px 2px 4px black,3px 4px 10px rgb(177, 156, 156);
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    color: green;
+
+}
+
+#title{
+    font-size: 25px;
+    text-align: center;
+    font-weight: 800;
+    letter-spacing: 1px;
+    color: crimson;
+    text-shadow: 1px 0px 1px black
+}
+
+.box>div{
+    /* font-size: 20px; */
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    gap: 4px;
+
+}
+
+
